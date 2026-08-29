@@ -14,4 +14,5 @@ if(59<age<100):
     num = int(input("Enter Number of Senior : "))
     tktprice = Child*num
     print("Your payble amout is ₹",tktprice)
+    
 
