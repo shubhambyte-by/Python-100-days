@@ -9,11 +9,24 @@
 a = 2
 b = 3
 c = 8
-mean1 = (a+b+c)/3
+mean1 = (a+b+c)/3   # here we are writing same things multiple times 
 print(mean1)
 
 d = 7 
 e = 20
 f = 23
-mean2 = (d+e+f)/3
+mean2 = (d+e+f)/3 # here we are writing same things multiple times 
 print(mean2)
+
+
+
+# making function 
+def mean(a,b,c):
+    mean = (a+b+c)/3
+    print(mean)
+
+# now 
+
+mean(a,b,c)
+mean(d,e,f) # same things but it shorter and faster 
+
