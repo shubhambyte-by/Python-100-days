@@ -6,15 +6,15 @@
 
 # let
 
-a = 2
-b = 3
-c = 8
+a = float(input("Enter first number : "))
+b = float(input("Enter second number : "))
+c = float(input("Enter third number : "))
 mean1 = (a+b+c)/3   # here we are writing same things multiple times 
 print(mean1)
 
-d = 7 
-e = 20
-f = 23
+d = float(input("Enter fourth number : "))
+e = float(input("Enter fifth number : "))
+f = float(input("Enter sixth number : "))
 mean2 = (d+e+f)/3 # here we are writing same things multiple times 
 print(mean2)
 
@@ -27,6 +27,14 @@ def mean(a,b,c):
 
 # now 
 
-mean(a,b,c)
+mean(a,b,c) # Calling function and passing values of a,b,c to function mean() and it will calculate mean of a,b,c and print it
 mean(d,e,f) # same things but it shorter and faster 
+def maxmin(a,b,c):
+    max_value = max(a,b,c)
+    min_value = min(a,b,c)
+    print("Maximum value is:", max_value)
+    print("Minimum value is:", min_value)
+
+maxmin(a,b,c)
+maxmin(d,e,f)
 
